@@ -1,0 +1,47 @@
+.item {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border: solid 2px black;
+    border-radius: 10px;
+    margin-bottom: 2%;
+    transition: 1s;
+}
+
+.item:hover {
+    background-color: gainsboro;
+}
+
+.price {
+    margin-bottom: 2%;
+}
+
+
+.list {
+    display: flex;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.linktitle {
+    color: black;
+    text-decoration: none;
+    text-decoration-color: black;
+}
+
+.lastbutton {
+    width: 20%;
+    height: 50px;
+    border: solid 1px black;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    margin-bottom: 3%;
+    transition : 1s;
+}
+.lastbutton:hover {
+    box-shadow: 0 0 35px black;
+}

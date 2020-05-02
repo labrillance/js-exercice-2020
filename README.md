@@ -1,3 +1,5 @@
+SUJET : 
+
 Exercice JS - 2020 
 
 - Construire une mini-app VueJS ou Angular 2 (ou autre framework) qui affiche une liste, puis une page pour chaque Item (avec nom, supplier, prix par exemple).
@@ -11,3 +13,17 @@ Exercice JS - 2020
 - Committer le projet expliqué sur Github.
  
 - L’app se compose donc de deux pages maximum : une vue liste et une vue détail produit, d’une recherche et d’un filtre par prix.
+
+EXPLICATIONS :
+
+Techno utilisée : React (car techno que je connais le mieux).
+
+USAGE: 
+--> npm install,
+--> npm start pour lancer l'app.
+
+Je ne me suis pas foulé sur le css vu que je n'avais pas de templates... donc c'est pas très joli :(
+
+Utilisation d'un router pour une navigation fluide.
+Intégration d'une barre de recherche (minimum 3 caractères pour executer le filtre).
+Commentaires dans chaque Component pour plus d'infos.
